@@ -6,12 +6,10 @@
 
 /* BLOCCO LEZIONI */
 
-/* DA CANCELLARE */
-/* #lezioni .row>.left,
-#lezioni .row>.right {
-  width: 50%;
-  float: left;
-} */
+#lezioni .row>.col-lg-6,
+#steps .row>.col-lg-4 {
+  padding: 0 20px;
+}
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -26,13 +24,6 @@
 
 /* BLOCCO STEPS */
 
-/* DA CANCELLARE */
-/* #steps .row>.left,
-#steps .row>.central,
-#steps .row>.right {
-  float: left;
-  width: 33%;
-} */
 
 #steps {
   text-align: center;
@@ -43,10 +34,7 @@
   text-align: center;
 }
 
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
+#why .row > .col-lg-12 {
   margin-top: 80px;
 }
 
@@ -57,12 +45,6 @@
 }
 
 /* COMMON */
-/* DA CANCELLARE */
-/* .row::after {
-  content: '';
-  display: table;
-  clear: both;
-} */
 
 .wrapper.grey {
   background-color: #f9f9f9;
@@ -74,4 +56,8 @@ img {
 
 .clear {
   clear: both;
+}
+
+.container h1 {
+  margin: 10px 0 30px 0;
 }
