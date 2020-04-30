@@ -134,6 +134,11 @@
   }
   /* Fine Offset */
 
+  /* Display */
+  .xs-display-none {
+    display: none;
+  }
+  /* Fine Display */
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
@@ -232,6 +237,12 @@
     margin-left: calc(100% / 12 * 11);
   }
   /* Fine Offset */
+
+  /* Display */
+  .md-display-none {
+    display: none;
+  }
+  /* Fine Display */
 }
 
 @media all and (min-width: 992px) {
@@ -331,4 +342,9 @@
   }
   /* Fine Offset */
 
+  /* Display */
+  .lg-display-none {
+    display: none;
+  }
+  /* Fine Display */
 }

@@ -5,6 +5,10 @@
   margin-top: 100px;
 }
 
+.container {
+  max-width: 992px;
+}
+
 .wrapper.grey {
   background-color: #f9f9f9;
 }
@@ -15,20 +19,11 @@ img {
   margin-top: 20px;
 }
 
-.clear {
-  clear: both;
-}
-
 .container h3 {
   margin-bottom: 20px;
 }
 
 /* BLOCCO LEZIONI E STEPS */
-#lezioni .row>.col-lg-6,
-#steps .row>.col-lg-4 {
-  padding: 0 20px;
-}
-
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -49,4 +44,9 @@ img {
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px;
+  height: 260px;
+}
+
+#why hr {
+  margin: 7px 0;
 }
